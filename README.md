@@ -6,6 +6,8 @@ How To Install:
  cp check_friz.sh /usr/lib/nagios/plugins/check_friz.sh
  chmod +x /usr/lib/nagios/plugins/check_friz.sh
  cp fritz.cfg  /etc/nagios-plugins/config/check_friz.sh
+ apt install -y jq #Ubuntu-debian
+ yum install jq # Centos
  ```
  
 Example of host definition:
